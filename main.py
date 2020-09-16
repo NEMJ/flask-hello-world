@@ -9,7 +9,7 @@ def index():
 
 @app.route('/unifran')
 def unifran():
-  return '<h2>Universidade de Franca</h1>'
+  return '<h2>Universidade de Franca</h2>'
 
 if __name__ == '__main__':
   port = int(os.environ.get('PORT', 5000))
