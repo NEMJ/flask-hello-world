@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return '<h1>Hello World!</h1><a href="/teste">link</a>'
+  return '<h1>Hello World!</h1><a href="/unifran">link</a>'
 
-@app.route('/teste')
-def teste():
-  return '<h1 style="color: red;">Teste</h1>'
+@app.route('/unifran')
+def unifran():
+  return '<h2>Universidade de Franca</h1>'
 
 if __name__ == '__main__':
   port = int(os.environ.get('PORT', 5000))
